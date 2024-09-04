@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Template with Logo</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <header id="topbar">
+        <nav>
+            <div class="logo">
+                <a href="#home">
+                    Logo
+                </a>
+            </div>
+            <ul class="navbar" id="navbar">
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Nri Area</a></li>
+                <li><a href="#">News & Thoughts</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="toggle-menu" id="toggle-btn">
+                <a><img src="assets/images/component (1).png" alt=""></a>
+
+            </div> 
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-container hide" id="form-container">
+                        <div class="close-icon" id="close"><img src="assets/images/Symbol 25.png" alt=""></div>
+                        <h2>Contact Us</h2>
+                        <p>When we aren’t changing landscapes, we’re making headlines.</p>
+                        <form>
+                            <h3 class="heading2">Send us an Enquiry</h3>
+
+                                <input type="text" id="name" name="name" placeholder="Name" required>
+
+                                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                                <input type="email" id="mobile" name="mobile" placeholder="Mobile No" required>
+
+                                <select id="query_type" name="query-type" onchange="showProjectOptions()">
+                                    <option value="0">Query Type</option>
+                                    <option value="1">Projects</option>
+                                    <option value="2">Media</option>
+                                    <option value="3">Career</option>
+                                </select>
+
+                                <select id="projects" name="projects">
+                                    <option value="0">Select Projects</option>
+                                    <option value="1">Project 1</option>
+                                    <option value="1">Project 2</option>
+                                    <option value="1">Project 3</option>
+                                    <option value="1">Project 5</option>
+                                    <option value="1">Project 6</option>                                    
+                                </select>
+
+
+                                <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="left-content">
+                        <div class="map-container">
+                            <img src="assets/images/map@2x.png" class="img-responsive" alt="">
+                            <img src="assets/images/component.png" class="map-pointer" alt="">
+                        </div>
+                        <div class="contact-info">
+                            <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h2>
+                            <p class="ppp">+91 000 0000 000 | test1@gmail.com | test2@gmail.com</p>
+
+
+                            <a href="#" class="inquiry-form" id="contact-form-btn">Send Us Inquiry Form</a>
+                            
+                            <h3 class="heading2"> Sales Inquiry</h3>
+                            <p style="margin: 0px;">
+                                +91 000 0000 000 
+                                
+                            </p>
+                            <p>test1@gmail.com</p>
+
+                            <h3 class="heading2"> Redevelopment Center</h3>
+                            <p style="margin: 0px;">
+                                +91 000 0000 000 
+                                 test1@gmail.com
+                            </p>
+                            <p> test1@gmail.com</p>
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="widget-area">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="logo">
+                            <a href="#home">
+                                Logo
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4">
+                        <ul class="cat-widget">
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">NRi Area</a></li>
+                            <li><a href="#">News & Thoughts</a></li>
+                            <li><a href="#">Employee Corner</a></li>
+                            <li><a href="#">CSR</a></li>
+                            <li><a href="#">ontact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h4>Get the latest news</h4>
+                        <input type="email" id="email" name="email" placeholder="Enter email" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                   
+                </div>
+
+                <button id="go-to-top" class="goToTop"><img src="assets/images/Group 545.svg" alt="">Go to top</button>
+            </div>
+            <!-- <a href="#" data-target="html"  class="goToTop" id="goToTop"> <img src="assets/images/Group 545.svg" class="goToTop" id="goToTop"  alt=""> </a> -->
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-4">
+                        <p>An ISO 9001:2008 Certified Company</p>
+
+                    </div>
+                    <div class="col-4">
+                        <p>© copyrights 2019</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/images/Group 613.svg" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+       
+
+       
+        
+
+
+    </footer>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
